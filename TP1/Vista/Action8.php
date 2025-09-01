@@ -41,8 +41,8 @@ if ($_POST) {
         </div>
         <a href="Ejercicio8.php" class="btn btn-primary">Volver</a>
     </main>
-    <?php
-}
 
+<?php
+}
 include_once("Estructura/Pie.php");
 ?>
