@@ -29,5 +29,4 @@ include_once("Estructura/Encabezado.php");
         </div>
     </div>
 </main>
-
 <?php include_once("Estructura/Pie.php"); ?>
