@@ -43,5 +43,4 @@ include_once("Estructura/Encabezado.php");
     }
 </style>
 
-
 <?php include_once("Estructura/Pie.php"); ?>
