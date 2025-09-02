@@ -6,6 +6,12 @@
             <li class="list-inline-item"><h5>Carlos Curilef</h5></li>
             <li class="list-inline-item"><h5>Gaston Llaupe</h5></li>
         </ul>
+
+        <!-- Link para volver al menú -->
+        <div class="mt-3">
+            <a href="../../index.php" class="btn btn-outline-light">Volver al menú</a>
+        </div>
+
         <small class="d-block mt-2 text-secondary">
             <h6>©2025 Copyright</h6>
         </small>
