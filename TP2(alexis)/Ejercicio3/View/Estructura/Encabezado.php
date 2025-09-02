@@ -17,7 +17,7 @@
     }
   </style>
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body>
   <header id="encabezado" class="text-light text-center py-3 shadow">
       <h3 class="mb-1">Programación Web Dinámica 2025</h3>
       <h2>GRUPO 4</h2>
