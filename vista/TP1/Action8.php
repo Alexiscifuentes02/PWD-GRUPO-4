@@ -1,6 +1,6 @@
 <?php
 $tituloPagina = "TP 1 - Ejercicio 8";
-include_once("Estructura/Encabezado.php");
+include_once("../Estructura/Encabezado.php");
 
 if ($_POST) {
     $nombre = $_POST['nombre_form'];
@@ -41,8 +41,8 @@ if ($_POST) {
         </div>
         <a href="Ejercicio8.php" class="btn btn-primary">Volver</a>
     </main>
-    <?php
-}
 
-include_once("Estructura/Pie.php");
+<?php
+}
+include_once("../Estructura/Pie.php");
 ?>
