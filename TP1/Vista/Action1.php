@@ -2,7 +2,6 @@
 $tituloPagina = "TP 1 - Ejercicio 1";
 include_once("Estructura/Encabezado.php");
 ?>
-
 <main class="flex-grow-1 d-flex justify-content-center align-items-start py-5">
     <div class="container">
         <div class="row justify-content-center">
