@@ -22,28 +22,28 @@
                 <div class="card shadow-lg border-0 rounded-3">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action list-group-item-primary text-center fw-bold">
-                            <a href="Vista/TP1/Ejercicio1.php" class="stretched-link text-decoration-none text-dark">Ejercicio 1</a>
+                            <a href="vista/TP1/Ejercicio1.php" class="stretched-link text-decoration-none text-dark">Ejercicio 1</a>
                         </li>
                         <li class="list-group-item list-group-item-action list-group-item-primary text-center fw-bold">
-                            <a href="Vista/TP1/Ejercicio2.php" class="stretched-link text-decoration-none text-dark">Ejercicio 2</a>
+                            <a href="vista/TP1/Ejercicio2.php" class="stretched-link text-decoration-none text-dark">Ejercicio 2</a>
                         </li>
                         <li class="list-group-item list-group-item-action list-group-item-primary text-center fw-bold">
-                            <a href="Vista/TP1/Ejercicio3.php" class="stretched-link text-decoration-none text-dark">Ejercicio 3</a>
+                            <a href="vista/TP1/Ejercicio3.php" class="stretched-link text-decoration-none text-dark">Ejercicio 3</a>
                         </li>
                         <li class="list-group-item list-group-item-action list-group-item-primary text-center fw-bold">
-                            <a href="Vista/TP1/Ejercicio4.php" class="stretched-link text-decoration-none text-dark">Ejercicio 4</a>
+                            <a href="vista/TP1/Ejercicio4.php" class="stretched-link text-decoration-none text-dark">Ejercicio 4</a>
                         </li>
                         <li class="list-group-item list-group-item-action list-group-item-primary text-center fw-bold">
-                            <a href="Vista/TP1/Ejercicio5.php" class="stretched-link text-decoration-none text-dark">Ejercicio 5</a>
+                            <a href="vista/TP1/Ejercicio5.php" class="stretched-link text-decoration-none text-dark">Ejercicio 5</a>
                         </li>
                         <li class="list-group-item list-group-item-action list-group-item-primary text-center fw-bold">
-                            <a href="Vista/TP1/Ejercicio6.php" class="stretched-link text-decoration-none text-dark">Ejercicio 6</a>
+                            <a href="vista/TP1/Ejercicio6.php" class="stretched-link text-decoration-none text-dark">Ejercicio 6</a>
                         </li>
                         <li class="list-group-item list-group-item-action list-group-item-primary text-center fw-bold">
-                            <a href="Vista/TP1/Ejercicio7.php" class="stretched-link text-decoration-none text-dark">Ejercicio 7</a>
+                            <a href="vista/TP1/Ejercicio7.php" class="stretched-link text-decoration-none text-dark">Ejercicio 7</a>
                         </li>
                         <li class="list-group-item list-group-item-action list-group-item-primary text-center fw-bold">
-                            <a href="Vista/TP1/Ejercicio8.php" class="stretched-link text-decoration-none text-dark">Ejercicio 8</a>
+                            <a href="vista/TP1/Ejercicio8.php" class="stretched-link text-decoration-none text-dark">Ejercicio 8</a>
                         </li>
                     </ul>
                 </div>
@@ -60,16 +60,16 @@
                 <div class="card shadow-lg border-0 rounded-3">
                     <ul class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-action list-group-item-danger text-center fw-bold">
-                        <a href="Vista/TP2/Ejercicio1.php" class="stretched-link text-decoration-none text-dark">Ejercicio 1</a>
+                        <a href="vista/TP2/Ejercicio1.php" class="stretched-link text-decoration-none text-dark">Ejercicio 1</a>
                     </li>
                     <li class="list-group-item list-group-item-action list-group-item-danger text-center fw-bold">
-                        <a href="Vista/TP2/Ejercicio2.php" class="stretched-link text-decoration-none text-dark">Ejercicio 2</a>
+                        <a href="vista/TP2/Ejercicio2.php" class="stretched-link text-decoration-none text-dark">Ejercicio 2</a>
                     </li>
                     <li class="list-group-item list-group-item-action list-group-item-danger text-center fw-bold">
-                        <a href="Vista/TP2/Ejercicio3.php" class="stretched-link text-decoration-none text-dark">Ejercicio 3</a>
+                        <a href="vista/TP2/Ejercicio3.php" class="stretched-link text-decoration-none text-dark">Ejercicio 3</a>
                     </li>
                     <li class="list-group-item list-group-item-action list-group-item-danger text-center fw-bold">
-                        <a href="Vista/TP2/Ejercicio4.php" class="stretched-link text-decoration-none text-dark">Ejercicio 4</a>
+                        <a href="vista/TP2/Ejercicio4.php" class="stretched-link text-decoration-none text-dark">Ejercicio 4</a>
                     </li>
                     </ul>
                 </div>
@@ -86,13 +86,13 @@
                 <div class="card shadow-lg border-0 rounded-3">
                     <ul class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-action list-group-item-warning text-center fw-bold">
-                        <a href="Vista/TP3/Ejercicio1.php" class="stretched-link text-decoration-none text-dark">Ejercicio 1</a>
+                        <a href="vista/TP3/Ejercicio1.php" class="stretched-link text-decoration-none text-dark">Ejercicio 1</a>
                     </li>
                     <li class="list-group-item list-group-item-action list-group-item-warning text-center fw-bold">
-                        <a href="Vista/TP3/Ejercicio2.php" class="stretched-link text-decoration-none text-dark">Ejercicio 2</a>
+                        <a href="vista/TP3/Ejercicio2.php" class="stretched-link text-decoration-none text-dark">Ejercicio 2</a>
                     </li>
                     <li class="list-group-item list-group-item-action list-group-item-warning text-center fw-bold">
-                        <a href="Vista/TP3/Ejercicio3.php" class="stretched-link text-decoration-none text-dark">Ejercicio 3</a>
+                        <a href="vista/TP3/Ejercicio3.php" class="stretched-link text-decoration-none text-dark">Ejercicio 3</a>
                     </li>
                     </ul>
                 </div>
