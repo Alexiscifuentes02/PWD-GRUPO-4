@@ -63,7 +63,7 @@
                         <a href="Vista/TP2/Ejercicio1.php" class="stretched-link text-decoration-none text-dark">Ejercicio 1</a>
                     </li>
                     <li class="list-group-item list-group-item-action list-group-item-danger text-center fw-bold">
-                        <a href="poner ruta al archivo aca" class="stretched-link text-decoration-none text-dark">Ejercicio 2</a>
+                        <a href="Vista/TP2/Ejercicio2.php" class="stretched-link text-decoration-none text-dark">Ejercicio 2</a>
                     </li>
                     <li class="list-group-item list-group-item-action list-group-item-danger text-center fw-bold">
                         <a href="Vista/TP2/Ejercicio3.php" class="stretched-link text-decoration-none text-dark">Ejercicio 3</a>

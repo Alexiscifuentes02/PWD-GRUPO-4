@@ -1,33 +1,26 @@
 <?php
-// Controlador para el cálculo de horas
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['botonDeEnvio1'])) {
-    
-    // Incluir el modelo
-    require_once '../../Modelo/TP2/calcularHoras.php';
-    
-    // Recoger los datos del formulario
-    $horas = [];
-    for ($i = 1; $i <= 5; $i++) {
-        $inicio = $_POST['formularioHoras' . $i] ?? '';
-        $fin = $_POST['formularioHorasFin' . $i] ?? '';
-        $horas[] = ['inicio' => $inicio, 'fin' => $fin];
-    }
-    
-    // Validar los datos
-    $errores = CalcularHoras::validarHoras($horas);
-    
-    if (!empty($errores)) {
-        // Si hay errores, mostrar el formulario con los errores
-        include '../../Vista/TP2/Ejercicio2.php';
-    } else {
-        // Calcular el total de horas
-        $total = CalcularHoras::calcularTotalHoras($horas);
-        
-        // Mostrar el resultado
-        include '../../Vista/TP2/Ejercicio2.php';
-    }
-} else {
-    // Mostrar el formulario si no se envió por POST
-    include '../../Vista/TP2/Ejercicio2.php';
+require_once("../../Modelo/TP2/CalcularHoras.php");
+
+// Armar el array de horarios desde el formulario
+$horas = [];
+for ($i = 1; $i <= 5; $i++) {
+    $horas[] = [
+        'inicio' => $_POST["formularioHoras$i"] ?? '',
+        'fin'    => $_POST["formularioHorasFin$i"] ?? ''
+    ];
 }
-?>
+
+// Validar
+$errores = CalcularHoras::validarHoras($horas);
+
+if (!empty($errores)) {
+    // Si hay errores, los mostramos directamente
+    include("../../Vista/TP2/ResultadoHoras.php");
+    exit;
+}
+
+// Calcular total de horas
+$total = CalcularHoras::calcularTotalHoras($horas);
+
+// Pasar resultado a la vista
+include("../../Vista/TP2/Action2.php");

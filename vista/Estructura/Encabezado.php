@@ -20,5 +20,5 @@
 <body>
   <header id="encabezado" class="text-light text-center py-3 shadow">
       <h3 class="mb-1">Programación Web Dinámica 2025</h3>
-      <h2>GRUPO 4</h2>
+      <h2 class="text-white fw-bold">GRUPO 4</h2>
   </header>

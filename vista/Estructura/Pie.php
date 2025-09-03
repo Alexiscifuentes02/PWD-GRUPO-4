@@ -8,7 +8,7 @@
         </ul>
 
         <!-- Link para volver al menú -->
-        <div class="mt-3">
+        <div class="mt-2">
             <a href="../../index.php" class="btn btn-outline-light">Volver al menú</a>
         </div>
 
