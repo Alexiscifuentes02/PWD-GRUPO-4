@@ -24,9 +24,9 @@
                         <input type="text" class="form-control" id="direccion" name="direccion">
                     </div>
                     <div class="mb-3">
-                        <input type="checkbox" name="estudios[]" value="No tiene Estudios" checked>-No tengo Estudios<br>
-                        <input type="checkbox" name="estudios[]" value="Estudios Primarios">-Estudios Primarios<br>
-                        <input type="checkbox" name="estudios[]" value="Estudios Secundarios">-Estudios Secundarios<br><br>
+                        <input type="radio" name="estudios[]" value="No tiene Estudios" checked>-No tengo Estudios<br>
+                        <input type="radio" name="estudios[]" value="Estudios Primarios">-Estudios Primarios<br>
+                        <input type="radio" name="estudios[]" value="Estudios Secundarios">-Estudios Secundarios<br><br>
                     </div>
                     <b>Selecciones su Sexo:</b>
                     <div class="mb-3">
@@ -35,11 +35,11 @@
                     </div>
 
                     <b>Deportes:</b><br>
-                    <input type="checkbox" name="deportes[]" value="Ninguno" checked>-Ninguno<br>
-                    <input type="checkbox" name="deportes[]" value="Futbol">-Futbol<br>
-                    <input type="checkbox" name="deportes[]" value="Basquet">-Basquet<br>
-                    <input type="checkbox" name="deportes[]" value="Tennis">-Tennis<br>
-                    <input type="checkbox" name="deportes[]" value="Voley">-Voley<br><br>
+                    <input type="radio" name="deportes[]" value="Ninguno" checked>-Ninguno<br>
+                    <input type="radio" name="deportes[]" value="Futbol">-Futbol<br>
+                    <input type="radio" name="deportes[]" value="Basquet">-Basquet<br>
+                    <input type="radio" name="deportes[]" value="Tennis">-Tennis<br>
+                    <input type="radio" name="deportes[]" value="Voley">-Voley<br><br>
 
                     <div class="d-grid">
                         <input type="submit" value="Enviar" class="btn btn-primary">
