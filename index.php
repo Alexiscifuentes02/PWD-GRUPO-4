@@ -100,6 +100,60 @@
         </div>
     </section>
 
+    <section class="mb-5">
+    <h2 class="mb-4 text-center">Trabajo Práctico 4</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-lg border-0 rounded-3">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        Ejercicio 1
+                    </li>
+                </ul>
+                <div class="px-2 py-1 text-center">
+                    <p class="text-muted fs-5 mb-2">
+                        <strong>Auto.php</strong> y <strong>Persona.php</strong>.
+                    </p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        Ejercicio 2
+                    </li>
+                </ul>
+                <div class="px-2 py-1 text-center">
+                    <p class="text-muted fs-5 mb-2">
+                        <strong>AbmAuto.php</strong> y <strong>AbmPersona.php</strong>.
+                    </p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        <a href="vista/TP4/VerAutos.php" class="stretched-link text-decoration-none text-dark">Ejercicio 3</a>
+                    </li>
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        <a href="vista/TP4/BuscarAuto.php" class="stretched-link text-decoration-none text-dark">Ejercicio 4</a>
+                    </li>
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        <a href="vista/TP4/ListaPersonas.php" class="stretched-link text-decoration-none text-dark">Ejercicio 5</a>
+                    </li>
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        <a href="vista/TP4/NuevaPersona.php" class="stretched-link text-decoration-none text-dark">Ejercicio 6</a>
+                    </li>
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        <a href="vista/TP4/NuevoAuto.php" class="stretched-link text-decoration-none text-dark">Ejercicio 7</a>
+                    </li>
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        <a href="vista/TP4/CambioDuenio.php" class="stretched-link text-decoration-none text-dark">Ejercicio 8</a>
+                    </li>
+                    <li class="list-group-item list-group-item-danger text-center fw-bold">
+                        <a href="vista/TP4/BuscarPersona.php" class="stretched-link text-decoration-none text-dark">Ejercicio 9</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
 </main>
 
 <?php include_once("Vista/Estructura/Pie.php"); ?>
