@@ -31,5 +31,5 @@ $_SESSION['horas'] = $horas;
 $_SESSION['total'] = $total;
 
 // Redirigir a la vista Action2.php
-header("Location: /PWD-GRUPO-4/vista/TP1/Action2.php");
+header("Location: ../../vista/TP1/Action2.php");
 exit;

@@ -27,5 +27,5 @@ $query = http_build_query([
 ]);
 
 // Redirigir a la vista final
-header("Location: /PWD-GRUPO-4/vista/TP1/Action6.php?$query");
+header("Location: ../../vista/TP1/Action6.php?$query");
 exit;

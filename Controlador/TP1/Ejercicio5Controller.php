@@ -25,5 +25,5 @@ $_SESSION['datos'] = [
 ];
 
 // Redirigir a la vista Action5.php
-header("Location: /PWD-GRUPO-4/vista/TP1/Action5.php");
+header("Location: ../../vista/TP1/Action5.php");
 exit;

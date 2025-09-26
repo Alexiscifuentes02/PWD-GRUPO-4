@@ -31,5 +31,5 @@ $_SESSION['datos'] = $datos;
 $_SESSION['recibidos'] = $recibidos;
 
 // Redirigir a Action3.php
-header("Location: /PWD-GRUPO-4/vista/TP1/Action3.php");
+header("Location: ../../vista/TP1/Action3.php");
 exit;

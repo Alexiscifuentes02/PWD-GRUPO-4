@@ -23,5 +23,5 @@ $_SESSION['mensaje'] = $mensaje;
 $_SESSION['recibidos'] = $recibidos;
 
 // Redirigir a la vista
-header("Location: /PWD-GRUPO-4/vista/TP1/Action4.php");
+header("Location: ../../vista/TP1/Action4.php");
 exit;

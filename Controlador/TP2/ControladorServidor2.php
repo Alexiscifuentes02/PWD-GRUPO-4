@@ -18,7 +18,7 @@ $errores = CalcularHoras::validarHoras($horas);
 
 if (!empty($errores)) {
     // Si hay errores, los mostramos directamente
-    include("../../Vista/TP2/ResultadoHoras.php");
+    include("../../Vista/TP2/Action2.php");
     exit;
 }
 
