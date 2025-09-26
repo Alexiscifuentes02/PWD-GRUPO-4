@@ -2,27 +2,30 @@
 $tituloPagina = "TP 3 - Ejercicio 3 - Resultado";
 include_once("../Estructura/Encabezado.php");
 require_once "../../Controlador/TP3/ControladorServidor3.php";
+include_once("../../Configuracion.php");
 
 $resultado = null;
 $datos = [];
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
+$datosFormulario = data_submitted();
+
+if(!empty($datosFormulario)){
     $controlador = new ControladorFormulario();
-    $resultado = $controlador->validarFormulario($_POST, $_FILES);
+    $resultado = $controlador->validarFormulario($datosFormulario);
 
     if ($resultado["estado"] === "ok") {
         $datos = [
-            "titulo"       => ($_POST['titulo'] ?? ''),
-            "actores"      => ($_POST['actores'] ?? ''),
-            "director"     => ($_POST['director'] ?? ''),
-            "guion"        => ($_POST['guion'] ?? ''),
-            "produccion"   => ($_POST['produccion'] ?? ''),
-            "anio"         => ($_POST['anio'] ?? ''),
-            "nacionalidad" => ($_POST['nacionalidad'] ?? ''),
-            "genero"       => ($_POST['genero'] ?? ''),
-            "duracion"     => ($_POST['duracion'] ?? ''),
-            "restriccion"  => ($_POST['restriccion'] ?? ''),
-            "sinopsis"     => ($_POST['sinopsis'] ?? ''),
+            "titulo"       => ($datosFormulario['titulo'] ?? ''),
+            "actores"      => ($datosFormulario['actores'] ?? ''),
+            "director"     => ($datosFormulario['director'] ?? ''),
+            "guion"        => ($datosFormulario['guion'] ?? ''),
+            "produccion"   => ($datosFormulario['produccion'] ?? ''),
+            "anio"         => ($datosFormulario['anio'] ?? ''),
+            "nacionalidad" => ($datosFormulario['nacionalidad'] ?? ''),
+            "genero"       => ($datosFormulario['genero'] ?? ''),
+            "duracion"     => ($datosFormulario['duracion'] ?? ''),
+            "restriccion"  => ($datosFormulario['restriccion'] ?? ''),
+            "sinopsis"     => ($datosFormulario['sinopsis'] ?? ''),
         ];
     }
 }

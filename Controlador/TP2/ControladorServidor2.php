@@ -1,12 +1,15 @@
 <?php
 require_once("../../Modelo/TP2/CalcularHoras.php");
+include_once("../../Configuracion.php");
+
+$datosFormulario = data_submitted();
 
 // Armar el array de horarios desde el formulario
 $horas = [];
 for ($i = 1; $i <= 5; $i++) {
     $horas[] = [
-        'inicio' => $_POST["formularioHoras$i"] ?? '',
-        'fin'    => $_POST["formularioHorasFin$i"] ?? ''
+        'inicio' => $datosFormulario["formularioHoras$i"] ?? '',
+        'fin'    => $datosFormulario["formularioHorasFin$i"] ?? ''
     ];
 }
 

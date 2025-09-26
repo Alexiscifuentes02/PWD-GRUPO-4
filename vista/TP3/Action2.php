@@ -1,9 +1,12 @@
 <?php
 $tituloPagina = "TP 3 - Ejercicio 2";
 include_once("../Estructura/Encabezado.php");
+include_once("../../Configuracion.php"); 
 require_once "../../Controlador/TP3/ControladorServidor2.php";
 
+$datos = data_submitted();
 $controlador = new ControladorServidor2();
+
 $mensaje = $controlador->validarArchivo($_FILES["archivo"]);
 ?>
 <div class="bg-light d-flex align-items-center justify-content-center vh-100">

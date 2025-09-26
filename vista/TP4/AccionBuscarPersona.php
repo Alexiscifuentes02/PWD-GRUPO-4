@@ -21,8 +21,9 @@
         <?php
             if($resp){
                 $colInfo = $objAbmPersona->arregloInfoAuto($datos);
-                //Uso $_SESSION para pasar los datos al formulario ActualizarDatosPersona.php
-                session_start();
+                if (session_status() === PHP_SESSION_NONE) {
+                    session_start();
+                }
                 $_SESSION['datos'] = $colInfo;
                 echo "<h5 align='center'>Datos de la Persona</h5>";
                 echo "<ul class= 'list-group' >";

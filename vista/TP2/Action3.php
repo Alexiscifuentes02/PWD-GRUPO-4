@@ -1,6 +1,7 @@
 <?php
 $tituloPagina = "TP 2 - Ejercicio 3";
 include_once("../Estructura/Encabezado.php");
+include_once("../../Configuracion.php");
 require_once "../../Controlador/TP2/ControladorServidor3.php";
 
 $login = new ControladorLogin();
@@ -8,9 +9,11 @@ $login = new ControladorLogin();
 $mensaje = "";
 $clase   = "";
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $usuario = $_POST['usuario'] ?? '';
-    $clave   = $_POST['clave'] ?? '';
+$datosFormulario = data_submitted();
+
+if(!empty($datosFormulario)){
+    $usuario = $datosFormulario['usuario'] ?? '';
+    $clave   = $datosFormulario['clave'] ?? '';
 
     $esValido = $login->validarLogin($usuario, $clave);
 

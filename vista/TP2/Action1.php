@@ -1,13 +1,15 @@
 <?php
 $tituloPagina = "TP 2 - Ejercicio 1 - Resultado";
 include_once("../Estructura/Encabezado.php");
+include_once("../../Configuracion.php");
 require_once "../../Controlador/TP2/ControladorServidor1.php";
 
 $resultado = null;
+$datosFormulario = data_submitted();
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
+if (!empty($datosFormulario)){
     $controlador = new ControladorServidor();
-    $resultado = $controlador->validarFormulario($_POST);
+    $resultado = $controlador->validarFormulario($datosFormulario);
 }
 ?>
 
