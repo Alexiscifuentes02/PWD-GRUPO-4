@@ -6,7 +6,7 @@
 $PROYECTO = 'PWD';
 
 // Ruta absoluta al directorio raíz del proyecto
-$ROOT = $_SERVER['DOCUMENT_ROOT'] . "/$PROYECTO/";
+$ROOT = __DIR__ . "/";
 
 // Guardamos en sesión para que el autoload lo pueda usar
 if (!isset($_SESSION)) {
