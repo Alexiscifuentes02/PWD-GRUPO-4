@@ -4,13 +4,9 @@ include_once("../Estructura/Encabezado.php");
 include_once("../../Configuracion.php");
 require_once "../../Controlador/TP2/ControladorServidor1.php";
 
-$resultado = null;
 $datosFormulario = data_submitted();
-
-if (!empty($datosFormulario)){
-    $controlador = new ControladorServidor();
-    $resultado = $controlador->validarFormulario($datosFormulario);
-}
+$controlador = new ControladorServidor();
+$resultado = $controlador->iniciarValidacion($datosFormulario);
 ?>
 
 <main style="min-height: calc(100vh - 280px);" class="container mt-4">

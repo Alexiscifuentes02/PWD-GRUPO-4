@@ -39,4 +39,12 @@ class ControladorServidor {
 
         return $resultado;
     }
+
+    public function iniciarValidacion($datosFormulario){
+        $resultado = null;
+        if (!empty($datosFormulario)){
+        $resultado = $this->validarFormulario($datosFormulario);
+        return $resultado;
+        }
+    }
 }
