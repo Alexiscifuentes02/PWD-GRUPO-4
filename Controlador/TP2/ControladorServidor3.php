@@ -17,5 +17,32 @@ class ControladorLogin {
     
         return $login;
     }
+
+    public function darResultado($datosFormulario){
+        $mensaje = "";
+        $clase   = "";
+
+        if(!empty($datosFormulario)){
+            $usuario = $datosFormulario['usuario'] ?? '';
+            $clave   = $datosFormulario['clave'] ?? '';
+
+            $esValido = $this->validarLogin($usuario, $clave);
+
+            if ($esValido) {
+                $mensaje = "Login correcto, ¡Bienvenido!";
+                $clase   = "success";
+            } else {
+                $mensaje = "Usuario o clave incorrectos";
+                $clase   = "danger"; 
+            }
+
+             $resultado = [
+                'mensaje'=> $mensaje,
+                'clase'=> $clase
+            ];
+
+            return $resultado;
+        }
+    }
 }
 

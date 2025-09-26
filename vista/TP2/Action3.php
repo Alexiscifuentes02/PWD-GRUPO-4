@@ -5,26 +5,11 @@ include_once("../../Configuracion.php");
 require_once "../../Controlador/TP2/ControladorServidor3.php";
 
 $login = new ControladorLogin();
-
-$mensaje = "";
-$clase   = "";
-
 $datosFormulario = data_submitted();
+$resultado = $login->darResultado($datosFormulario);
+$mensaje = $resultado["mensaje"];
+$clase = $resultado["clase"];
 
-if(!empty($datosFormulario)){
-    $usuario = $datosFormulario['usuario'] ?? '';
-    $clave   = $datosFormulario['clave'] ?? '';
-
-    $esValido = $login->validarLogin($usuario, $clave);
-
-    if ($esValido) {
-        $mensaje = "Login correcto, ¡Bienvenido!";
-        $clase   = "success";
-    } else {
-        $mensaje = "Usuario o clave incorrectos";
-        $clase   = "danger"; 
-    }
-}
 ?>
 
 <main style="min-height: 80vh; padding: 150px 0;">
@@ -41,19 +26,4 @@ if(!empty($datosFormulario)){
     </div>
   </div>
 </main>
-
-<style>
-html, body {
-  height: 100%;
-  margin: 0;
-}
-body {
-  display: flex;
-  flex-direction: column;
-}
-main {
-  flex: 1; 
-}
-</style>
-
 <?php include_once("../Estructura/Pie.php"); ?>
